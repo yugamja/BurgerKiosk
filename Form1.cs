@@ -64,7 +64,12 @@ namespace BurgerKiosk
             lblTotalCost.Text = "총 합계: " + totalCost.ToString("N0") + "원";
             lblTotalCost.ForeColor = Color.Blue;
 
-            
+            if (!rdoHamBurger.Checked && !rdoBulgogiBurger.Checked && !rdoChickenBurger.Checked)
+            {
+                lblTotalCost.Text = "메뉴를 선택하세요";
+                lblTotalCost.ForeColor = Color.Red;
+                return;
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)

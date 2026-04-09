@@ -30,6 +30,7 @@
 ![실행화면](img/task2.png)
 
 - 구현한 내용 (위 그림 참조)
+	- 아무것도 선택하지 않고 주문하기 버튼을 누르면 에러 메시지 "메뉴를 선택하세요" 표시 -> lblTotalCost.Text를 사용해 MessageBox가 아닌 Label에 표시되도록 함. 동시에 lblTotalCost.ForeColor를 사용해 라벨의 색상을 바꾸어 가독성을 키움.
 
 
 
