@@ -107,7 +107,7 @@
             rdoChickenBurger.AutoSize = true;
             rdoChickenBurger.Font = new Font("궁서", 10F, FontStyle.Bold);
             rdoChickenBurger.ForeColor = Color.Black;
-            rdoChickenBurger.Location = new Point(25, 240);
+            rdoChickenBurger.Location = new Point(29, 224);
             rdoChickenBurger.Name = "rdoChickenBurger";
             rdoChickenBurger.Size = new Size(118, 24);
             rdoChickenBurger.TabIndex = 2;
@@ -119,7 +119,7 @@
             rdoBulgogiBurger.AutoSize = true;
             rdoBulgogiBurger.Font = new Font("궁서", 10F, FontStyle.Bold);
             rdoBulgogiBurger.ForeColor = Color.Black;
-            rdoBulgogiBurger.Location = new Point(25, 163);
+            rdoBulgogiBurger.Location = new Point(29, 147);
             rdoBulgogiBurger.Name = "rdoBulgogiBurger";
             rdoBulgogiBurger.Size = new Size(139, 24);
             rdoBulgogiBurger.TabIndex = 1;
@@ -131,7 +131,7 @@
             rdoHamBurger.AutoSize = true;
             rdoHamBurger.Font = new Font("궁서", 10F, FontStyle.Bold);
             rdoHamBurger.ForeColor = Color.Black;
-            rdoHamBurger.Location = new Point(25, 85);
+            rdoHamBurger.Location = new Point(29, 69);
             rdoHamBurger.Name = "rdoHamBurger";
             rdoHamBurger.Size = new Size(97, 24);
             rdoHamBurger.TabIndex = 0;
@@ -211,7 +211,7 @@
             gbo_receipt.Location = new Point(573, 98);
             gbo_receipt.Name = "gbo_receipt";
             gbo_receipt.Size = new Size(262, 257);
-            gbo_receipt.TabIndex = 3;
+            gbo_receipt.TabIndex = 0;
             gbo_receipt.TabStop = false;
             gbo_receipt.Text = "주문 내역";
             // 
@@ -223,7 +223,7 @@
             lblTotalCost.Location = new Point(20, 215);
             lblTotalCost.Name = "lblTotalCost";
             lblTotalCost.Size = new Size(152, 32);
-            lblTotalCost.TabIndex = 1;
+            lblTotalCost.TabIndex = 0;
             lblTotalCost.Text = "총 금액 : 0원";
             // 
             // lstOrder
@@ -244,7 +244,7 @@
             btn_order.Location = new Point(573, 373);
             btn_order.Name = "btn_order";
             btn_order.Size = new Size(126, 48);
-            btn_order.TabIndex = 4;
+            btn_order.TabIndex = 0;
             btn_order.Text = "주문하기";
             btn_order.UseVisualStyleBackColor = false;
             btn_order.Click += btn_order_Click;
@@ -257,7 +257,7 @@
             btn_reset.Location = new Point(705, 373);
             btn_reset.Name = "btn_reset";
             btn_reset.Size = new Size(130, 48);
-            btn_reset.TabIndex = 5;
+            btn_reset.TabIndex = 0;
             btn_reset.Text = "초기화";
             btn_reset.UseVisualStyleBackColor = false;
             btn_reset.Click += btn_reset_Click;

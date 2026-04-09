@@ -8,6 +8,13 @@
 - 사용한 컨트롤: 
 	- Label, RadioButton, CheckBox, GroupBox, ListBox, Button, PictureBox
 - 사용한 기술과 구현한 기능: 
+	- 처음 실행 화면에서 햄버거 종류 radiobutton 하나가 미리 선택되어 있는 상황을 제거함. -> formload에서 checked False
+	- 각 메뉴의 값을 설정하고 사용자가 선택하면 totalCost 변수에 값이 더해져 '주문하기' 버튼을 누르면 lblToalCost에 총 합계가 뜨도록 함. 동시에 선택한 각 메뉴들과 그 금액이 lstOrder에 표시되도록 함.
+	- 아무것도 선택하지 않고 주문하기 버튼을 누르면 에러 메시지 "메뉴를 선택하세요" 표시 -> lblTotalCost.Text를 사용해 MessageBox가 아닌 Label에 표시되도록 함. 동시에 lblTotalCost.ForeColor를 사용해 라벨의 색상을 바꾸어 가독성을 키움.
+	- Tab을 이용해서 GroupBox 사이를 이동하기
+	- 방향키를 이용해서 선택 아이템 사이를 이동하기
+	- 스페이스바를 이용해서 아이템 선택하기
+	- Enter키로 버튼을 누르기
 
 
 
@@ -40,6 +47,10 @@
 ![실행화면](img/task3.png)
 
 - 구현한 내용 (위 그림 참조)
+	- Tab을 이용해서 GroupBox 사이를 이동하기
+	- 방향키를 이용해서 선택 아이템 사이를 이동하기
+	- 스페이스바를 이용해서 아이템 선택하기
+	- Enter키로 버튼을 누르기
 
 
 
